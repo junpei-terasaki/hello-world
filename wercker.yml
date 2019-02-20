@@ -43,10 +43,10 @@ lint:
         name: ts lint
         code: |
           npm run lint
-    - script:
-        name: sass lint
-        code: |
-          npm run lint:sass
+    # - script:
+    #     name: sass lint
+    #     code: |
+    #       npm run lint:sass
 test:
   steps:
     - wacul/store-link:
